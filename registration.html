@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link href="/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin Sans">
+</head>
+<body>
+    <div class="main" >
+        <div class="registration">
+            <h1 class="heading1">Registration</h1>
+            <table class="regTable">
+                <form>
+                    <td class="mainColumn" >
+                        <tr>
+                            <td><label for="fname">First name : </label></td>
+                            <td><input class="inputs" type="text" id="fname" name="fname" placeholder="First Name" pattern="[A-Za-z]{2,32}" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="lname">Last name : </label></td>
+                            <td><input class="inputs" type="text" id="lname" name="lname" placeholder="Last Name" pattern="[A-Za-z]{1,32}" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="pass">Password :</label></td>
+                            <td><input class="inputs" type="password" id="pass" name="pass" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="dob">Date of Birth :</label></td>
+                            <td><input class="dob" type="date" id="dob" name="dob" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="qualification">Qualification :</label></td>
+                            <td><input type="radio" id="undergrad" name="qualification" value="undergrad">
+                                <label for="undergrad">Under Graduation</label>
+                                <input type="radio" id="postgrad" name="qualification" value="postgrad">
+                                <label for="postgrad">Post Graduation</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="languages">Languages :</label></td>
+                            <td>
+                                <input type="checkbox" id="language1" name="languages" value="c">
+                                <label for="language1"> C</label>
+                                <input type="checkbox" id="language2" name="languages" value="c++">
+                                <label for="language2"> C++ </label>
+                                <input type="checkbox" id="language3" name="languages" value="Java">
+                                <label for="language3"> Java</label>
+                                <input type="checkbox" id="language4" name="languages" value="Python">
+                                <label for="language4"> Python</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="days">Days : </label></td>
+                            <td>
+                                <select class="days" name="days" id="days">
+                                    <option value="monday">Monday</option>
+                                    <option value="tuesday">Tuesday</option>
+                                    <option value="wednesday">Wednesday</option>
+                                    <option value="thursday">Thursday</option>
+                                    <option value="friday">Friday</option>
+                                    <option value="saturday">Saturday</option>
+                                    <option value="sunday">Sunday</option>
+                                </select>
+                            </td>   
+                        </tr>
+                    </td>
+            </table>
+            <div class="submit-btn-cls" >
+                <input class="submitbtn" type="submit" value="Submit">
+            </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

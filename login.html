@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link href="/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin Sans">
+</head>
+<body>
+    <div class="main" >
+        <div class="login">
+            <h1 class="heading2">Login</h1>
+            <table class="regTable">
+                <form>
+                    <td class="mainColumn" >
+                        <tr>
+                            <div class="email" style="margin-left:20%;">
+                                <label for="fname">Email :  </label>
+                                <input class="inputs" type="text" id="fname" name="fname" placeholder="First Name" pattern="[A-Za-z]{2,32}" required>
+                            </div>
+                        </tr>
+                        <tr>
+                            <div class="loginpassword" style=" margin-left:20%; margin-top: 10px;">
+                                <label for="pass">Password :</label>
+                                <input class="inputs" type="password" id="pass" name="pass" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                            </div>
+                        </tr>
+                    </td>
+            </table>
+            <div class="submit-btn-cls" >
+                <input class="submitbtn" type="submit" value="Login">
+            </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

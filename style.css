@@ -1,0 +1,90 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Josefin Sans';
+}
+.body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.registration{
+    width: 75vh;
+    height: 60vh;
+    background-color: aquamarine;
+    border-radius: 8px;
+    box-shadow: 5px  8px 8px grey;
+}
+.login{
+    width: 75vh;
+    height: 35vh;
+    background-color: aquamarine;
+    border-radius: 8px;
+    box-shadow: 5px  8px 8px grey;
+}
+.heading1{
+    text-align: center;
+    margin-top: 20px;
+}
+.heading2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.regTable{
+    margin:10px;
+    margin-top: 0px;
+}
+
+.inputs{
+    width: 30vh;
+    height: 25px;
+    border: 0px;
+    padding-left: 5px;
+}
+.submit-btn-cls{
+    text-align: center;
+}
+.submitbtn{
+    width: 25vh;
+    height: 30px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: rgb(61, 162, 162);
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+td {
+    padding: 4px;
+}
+input:focus {
+    border: red;
+}
+select{
+    width: 31vh;
+    height: 25px;
+    border: 0px;
+}
+.mainColumn{
+    padding: 2px;
+}
+.dob{
+    width: 30.5vh;
+    height: 25px;
+    text-align: center;
+    border: 0px;
+    padding-right: 2px;
+}
+
+.inputs:valid{
+    border: 2px green solid;
+}
+
